@@ -89,4 +89,4 @@ def compute_confidence_intervals_backdoor(Y, A, Z, data, method_name, num_bootst
     q_low = quantiles[0]
     q_up = quantiles[1]
     
-    return q_low, q_up, estimates
+    return q_low, q_up
