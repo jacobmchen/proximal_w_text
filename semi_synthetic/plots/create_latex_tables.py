@@ -1,8 +1,16 @@
+"""
+May 20, 2024
+
+This file contains code that converts data stored in pickle files into
+LaTeX tables.
+"""
+
 import pandas as pd
 
 def table2(filename, data_order):
     """
-    Create strings for Table 2 that displays baseline information for 
+    Create strings for Table 2 that displays baseline information for fully
+    synthetic experiments
     """
     final_string = ''
 

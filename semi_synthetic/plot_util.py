@@ -1,3 +1,10 @@
+"""
+May 20, 2024
+
+This file contains code implementing functions that help plot results from
+the semi-synthetic experiments into LaTeX tables and plots.
+"""
+
 import pandas as pd 
 import pickle
 import pandas as pd

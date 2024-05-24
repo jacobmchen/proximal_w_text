@@ -1,3 +1,13 @@
+"""
+May 20, 2024
+
+This file contains code implementing estimation of the odds ratio and the ACE. We estimate
+the ACE using a two-stage linear regression estimator. 
+
+This file also implements generating the semi-synthetic dataset and training bag of words 
+classifiers for diagnosing signal in the text data.
+"""
+
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import pandas as pd
