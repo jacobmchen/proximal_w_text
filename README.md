@@ -13,3 +13,7 @@ This folder contains code for the fully synthetic experiments detailed in Sectio
 ### semi_synthetic
 
 This folder contains all the files related to the semi-synthetic experiments detailed in Section 5.2. This includes preprocessing of the MIMIC-III dataset, diagnosing signal in the text data, creating predictions from Flan-T5 and OLMo, and estimation. There is a separate README.md file in this folder with specific details of all the steps we took to run the semi-synthetic experiments.
+
+### text_independence
+
+This folder contains code for creating the tables in the Appendix section titled Empirical Evidence for Text Independence. We use a tfidf vectorizer to evaluate the most common vocabularies of different pairings of note categories and find preliminary qualitative evidence that support text independence based off of the most pertinent features of the text data.
