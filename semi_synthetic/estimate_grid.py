@@ -1,3 +1,11 @@
+"""
+May 20, 2024
+
+This file runs all of the semi-synthetic experiments, which includes making estimates for the
+ACE, calculating bootstrap confidence intervals for the ACE, and executing the odds ratio 
+falsification heuristic.
+"""
+
 import json
 import pandas as pd
 import numpy as np

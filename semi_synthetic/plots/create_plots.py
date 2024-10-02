@@ -1,3 +1,10 @@
+"""
+May 20, 2024
+
+This file contains code using the matplotlib library to plot results from the semi-synthetic
+experiments.
+"""
+
 import pandas as pd 
 import pickle
 import pandas as pd

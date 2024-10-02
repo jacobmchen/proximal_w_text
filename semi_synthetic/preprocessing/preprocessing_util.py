@@ -1,3 +1,10 @@
+"""
+May 20, 2024
+
+This file contains helper function implementations for preprocessing the
+MIMIC-III dataset.
+"""
+
 import pandas as pd
 
 def calculate_age(chart_date, date_of_birth):
